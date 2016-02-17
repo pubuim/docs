@@ -14,7 +14,6 @@
   <!-- Icon -->
   <link rel="shortcut icon" href="https://pubu.im/favicon.png">
   <meta name="msapplication-TileColor" content="#2f83cd">
-  <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
   <!-- CSS -->
   <!-- build:css build/css/navy.css -->
   {{ css('css/navy') }}
