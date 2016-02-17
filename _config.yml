@@ -1,0 +1,18 @@
+title: 瀑布IM
+subtitle: "让工作沟通更简单"
+description: "瀑布IM - 让工作沟通更简单"
+author: Kuro
+language: zh-cn
+timezone: UTC
+url: https://docs.pubu.im/
+root: /
+code_dir: downloads/code
+highlight:
+  enable: true
+  line_number: false
+per_page: 0
+
+theme: navy
+deploy:
+  type: git
+  repo: git@github.com:KuroGuo/pubs.im-docs.git

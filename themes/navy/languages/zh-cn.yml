@@ -1,0 +1,21 @@
+menu:
+  docs: 文档
+  search: 搜索
+
+index:
+  get_started: 开始使用
+
+page:
+  contents: 目录
+  back_to_top: 回到顶部
+  improve: 改进本文
+  prev: 上一页
+  next: 下一页
+  last_updated: 上次更新：%s
+
+sidebar:
+  add_service: 添加服务
+  incoming: Incoming / 消息发布
+  outgoing: Outgoing / 触发回调
+  command: Command / 指令交互
+  email: Email / 邮件代收

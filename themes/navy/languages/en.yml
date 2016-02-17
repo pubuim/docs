@@ -1,0 +1,21 @@
+menu:
+  docs: Docs
+  search: Search
+
+index:
+  get_started: Get started
+
+page:
+  contents: Contents
+  back_to_top: Back to Top
+  improve: Improve this doc
+  prev: Prev
+  next: Next
+  last_updated: "Last updated: %s"
+
+sidebar:
+  add_service: Add Service
+  incoming: Incoming
+  outgoing: Outgoing
+  command: Command
+  email: Email

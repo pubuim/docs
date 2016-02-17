@@ -1,0 +1,5 @@
+add_service:
+  incoming: index.html
+  outgoing: outgoing.html
+  command: command.html
+  email: email.html
