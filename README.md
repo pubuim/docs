@@ -17,3 +17,9 @@ $ npm run build
 ``` bash
 $ npm start
 ```
+
+## 部署
+
+```bash
+$ npm deploy
+```
