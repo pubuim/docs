@@ -3,12 +3,22 @@ header-padding-max = 30px
 logo-size = 40px
 
 #header
-  position: relative
+  position: fixed
+  left: 0
+  right: 0
+  top: 0
+  z-index: 1
   padding: header-padding-normal 0
   background-color: color-theme
   display: none
+  transition: .4s
+  .mobile-nav-on &
+    transform: translateX(mobile-nav-width)
   @media mq-mobile
     display: block
+
+#container
+  padding-top: 20px
 
 #header-inner
   display: flex

@@ -2,8 +2,8 @@
 <html lang="{{ page.lang }}">
 {{ partial('partial/head') }}
 <body>
+  {{ partial('partial/header') }}
   <div id="container">
-    {{ partial('partial/header') }}
     {{ body }}
   </div>
   <div id="mobile-nav-dimmer"></div>
