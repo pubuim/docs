@@ -6,8 +6,8 @@
     "version": "3.1.1"
   },
   "scripts": {
-    "build": "hexo generate",
-    "deploy": "hexo deploy",
+    "build": "rm -rf public/ && hexo generate",
+    "deploy": "rm -rf .deploy_git/ && hexo deploy",
     "start": "hexo server"
   },
   "dependencies": {
