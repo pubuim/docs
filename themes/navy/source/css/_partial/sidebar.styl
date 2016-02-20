@@ -15,8 +15,8 @@ lang-select-height = 40px
     display: none
 
 .sidebar-header
-  border-bottom: 1px solid #444
   padding: 18px 0
+  border-bottom: 2px solid #383B40
 
 #logo
   height: logo-size
@@ -76,8 +76,8 @@ lang-select-height = 40px
   overflow-y: auto
   padding-bottom: 10px
   position: absolute
-  top: logo-size + search-height + 10px + 1px
-  bottom: lang-select-height
+  top: logo-size + search-height + 6px + 2px
+  bottom: 0
   left: 0
   right: 0
   -webkit-overflow-scrolling: touch
@@ -108,7 +108,8 @@ lang-select-height = 40px
   overflow: hidden
   text-overflow: ellipsis
   &.current
-    background-color: rgba(255, 255, 255, .1)
+    background-color: white
+    color: color-default
 
 #lang-select-wrap
   position: absolute
