@@ -75,8 +75,9 @@ note-warn = hsl(0, 100%, 50%)
 .article-title
   float: left
   font-family: font-title
-  font-size: 36px
+  font-size: 2.618em
   font-weight: 300
+  line-height: normal
   text-decoration: none
   color: color-default
   transition: 0.2s
@@ -123,15 +124,20 @@ note-warn = hsl(0, 100%, 50%)
   p, ol, ul, dl, table, blockquote, iframe, .highlight
     margin: 1em 0
   h1
-    font-size: 2em
+    font-size: 2.618em
   h2
-    font-size: 1.5em
-  h3
-    font-size: 1.3em
+    font-size: 1.618em
   h1, h2, h3, h4, h5, h6
     line-height: line-height
     font-weight: bold
     margin: 1em 0
+    position: relative
+    @media mq-normal
+      a
+        display: inline-block
+        position: absolute
+        left: -1em
+        margin-left: 0
   a
     color: color-link
     text-decoration: none
@@ -146,8 +152,16 @@ note-warn = hsl(0, 100%, 50%)
         font-size: 80%
   strong
     font-weight: bold
+    color: #c7254e
+    background-color: #f9f2f4
+    border-radius: 3px
+    padding: 0 4px
+  img
+    box-shadow: 0 1px 4px rgba(0,0,0,.3)
+    border-radius: 5px
+    box-sizing: content-box
   em
-    font-style: italic
+    font-weight: bold
   ul, ol, dl
     margin-left: 20px
     ul, ol, dl
@@ -167,10 +181,10 @@ note-warn = hsl(0, 100%, 50%)
   img, video
     max-width: 100%
   blockquote
-    padding: 0 20px
+    padding: 0 10px
     position: relative
-    border: 1px solid color-border
-    border-left: 5px solid #ddd
+    border-left: 5px solid #d4d4d4
+    font-size: .9em
     footer
       margin: 1em 0
       font-style: italic
